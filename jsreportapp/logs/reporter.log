@@ -1,0 +1,327 @@
+2023-01-31T00:00:23.754Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.17.0)
+2023-01-31T00:00:23.757Z - info: Searching for available extensions in C:\Users\casim\Desktop\Laravel-React\jsreportapp\
+2023-01-31T00:00:23.764Z - info: Extensions location cache C:\Users\casim\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2023-01-31T00:00:24.720Z - info: Found 35 extension(s)
+2023-01-31T00:00:24.786Z - info: Using extension base@3.0.1
+2023-01-31T00:00:24.791Z - info: Using extension child-templates@3.1.0
+2023-01-31T00:00:24.794Z - info: Using extension cli@3.2.3
+2023-01-31T00:00:24.796Z - info: Using extension components@3.3.0
+2023-01-31T00:00:24.799Z - info: Using extension data@3.1.0
+2023-01-31T00:00:24.800Z - info: Using extension express@3.6.0
+2023-01-31T00:00:25.102Z - info: Using extension freeze@3.0.1
+2023-01-31T00:00:25.104Z - info: Using extension fs-store@3.2.4
+2023-01-31T00:00:25.185Z - info: Using extension handlebars@3.2.1
+2023-01-31T00:00:25.187Z - info: Using extension import-export@3.2.0
+2023-01-31T00:00:25.197Z - info: Using extension jsrender@3.0.0
+2023-01-31T00:00:25.198Z - info: Using extension licensing@3.0.2
+2023-01-31T00:00:25.220Z - info: Using extension localization@3.2.1
+2023-01-31T00:00:25.221Z - info: Using extension npm@3.1.2
+2023-01-31T00:00:25.227Z - info: Using extension pdf-utils@3.7.0
+2023-01-31T00:00:25.231Z - info: Using extension reports@3.1.1
+2023-01-31T00:00:25.235Z - info: Using extension tags@3.1.1
+2023-01-31T00:00:25.238Z - info: Using extension text@3.0.0
+2023-01-31T00:00:25.242Z - info: Using extension version-control@3.1.2
+2023-01-31T00:00:25.256Z - info: Using extension assets@3.6.0
+2023-01-31T00:00:25.266Z - info: Using extension authorization@3.3.0
+2023-01-31T00:00:25.270Z - info: Using extension browser-client@3.1.1
+2023-01-31T00:00:25.272Z - info: Using extension chrome-pdf@3.3.0
+2023-01-31T00:00:25.275Z - info: Using extension docx@3.6.0
+2023-01-31T00:00:25.278Z - info: Using extension html-to-xlsx@3.3.0
+2023-01-31T00:00:25.422Z - info: html-to-xlsx detected chrome as available html engine
+2023-01-31T00:00:25.422Z - info: Using extension pptx@3.4.0
+2023-01-31T00:00:25.425Z - info: Using extension scheduling@3.0.3
+2023-01-31T00:00:25.451Z - info: Using extension scripts@3.4.0
+2023-01-31T00:00:25.453Z - info: Using extension static-pdf@3.0.1
+2023-01-31T00:00:25.454Z - info: Using extension studio@3.9.0
+2023-01-31T00:00:25.515Z - info: Using extension xlsx@3.4.0
+2023-01-31T00:00:25.537Z - info: Using extension public-templates@3.0.0
+2023-01-31T00:00:25.539Z - info: Using extension sample-template@3.2.1
+2023-01-31T00:00:25.542Z - info: Using extension studio-theme-dark@3.0.1
+2023-01-31T00:00:25.543Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-01-31T00:00:25.544Z - info: Using fs provider for template store.
+2023-01-31T00:00:25.551Z - info: fs store is persisting using fs for C:\Users\casim\Desktop\Laravel-React\jsreportapp\data
+2023-01-31T00:00:25.555Z - info: fs store is loading data
+2023-01-31T00:00:25.563Z - info: fs store is initialized successfully
+2023-01-31T00:00:25.619Z - info: Creating default express app.
+2023-01-31T00:00:25.635Z - info: jsreport server successfully started on http port: 5488
+2023-01-31T00:00:25.637Z - info: Verifying license key free
+2023-01-31T00:00:25.638Z - info: Using free license
+2023-01-31T00:00:25.662Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2023-01-31T00:00:25.668Z - info: Migration successful
+2023-01-31T00:00:25.988Z - info: Initializing worker threads
+2023-01-31T00:00:26.243Z - info: 2 worker threads initialized in 255ms
+2023-01-31T00:00:26.243Z - info: Starting temp files cleanup with 180000ms threshold
+2023-01-31T00:00:26.244Z - info: reporter initialized
+2023-01-31T00:01:23.486Z - warn: Unable to get asset content  Error: Unable to find asset with id SQVUNOKWXrI5Ig7p
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at readAsset (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:40:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-31T00:01:31.989Z - warn: Unable to get asset content  Error: Unable to find asset with id SQVUNOKWXrI5Ig7p
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at MainReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at readAsset (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:40:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-01-31T00:05:04.765Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=h2ap1t87hkqta56, id=h2ap1t87hkqta56
+2023-01-31T00:05:04.897Z - info: Starting rendering request 1 rootId=h2ap1t87hkqta56, id=h2ap1t87hkqta56, fromEmitProfile=true
+2023-01-31T00:05:04.898Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=h2ap1t87hkqta56, id=h2ap1t87hkqta56, fromEmitProfile=true
+2023-01-31T00:05:05.783Z - warn: Error when processing render request 1
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) asset  invoice-logo.png  not found
+Error: Asset  invoice-logo.png  not found
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at readAsset (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:111:24)
+    at async Object.read (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:120:19)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset  invoice-logo.png  not found
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:340:54)
+    at C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:15
+    at VM2 Wrapper.apply (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\vm2\lib/bridge.js:485:11)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) asset  invoice-logo.png  not found
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:286:33)
+    at async engine.engine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=h2ap1t87hkqta56, id=h2ap1t87hkqta56, fromEmitProfile=true
+2023-01-31T00:05:05.792Z - warn: Rendering request 1 finished with error in 1023 ms rootId=h2ap1t87hkqta56, id=h2ap1t87hkqta56, fromEmitProfile=true
+2023-01-31T00:05:30.963Z - info: Render request 2 queued for execution and waiting for available worker fromEmitProfile=true, rootId=f0rjqh06xjk6fwt, id=f0rjqh06xjk6fwt
+2023-01-31T00:05:30.997Z - info: Starting rendering request 2 rootId=f0rjqh06xjk6fwt, id=f0rjqh06xjk6fwt, fromEmitProfile=true
+2023-01-31T00:05:30.998Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=f0rjqh06xjk6fwt, id=f0rjqh06xjk6fwt, fromEmitProfile=true
+2023-01-31T00:05:31.068Z - warn: Error when processing render request 2
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) unknown encoding: dataURI 
+TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: dataURI 
+    at new NodeError (node:internal/errors:387:5)
+    at Buffer.toString (node:buffer:817:11)
+    at readAsset (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:186:25)
+    at async Object.read (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:120:19)
+wrapped by:
+Error: "asset" helper call failed
+(because) unknown encoding: dataURI 
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:340:54)
+    at C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:15
+    at VM2 Wrapper.apply (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\vm2\lib/bridge.js:485:11)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) unknown encoding: dataURI 
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:286:33)
+    at async engine.engine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=f0rjqh06xjk6fwt, id=f0rjqh06xjk6fwt, fromEmitProfile=true
+2023-01-31T00:05:31.072Z - warn: Rendering request 2 finished with error in 108 ms rootId=f0rjqh06xjk6fwt, id=f0rjqh06xjk6fwt, fromEmitProfile=true
+2023-01-31T00:06:25.138Z - info: Initializing jsreport (version: 3.10.0, configuration file: jsreport.config.json, nodejs: 16.17.0)
+2023-01-31T00:06:25.141Z - info: Searching for available extensions in C:\Users\casim\Desktop\Laravel-React\jsreportapp\
+2023-01-31T00:06:25.150Z - info: Extensions location cache C:\Users\casim\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2023-01-31T00:06:26.133Z - info: Found 35 extension(s)
+2023-01-31T00:06:26.276Z - info: Using extension base@3.0.1
+2023-01-31T00:06:26.284Z - info: Using extension child-templates@3.1.0
+2023-01-31T00:06:26.288Z - info: Using extension cli@3.2.3
+2023-01-31T00:06:26.291Z - info: Using extension components@3.3.0
+2023-01-31T00:06:26.293Z - info: Using extension data@3.1.0
+2023-01-31T00:06:26.295Z - info: Using extension express@3.6.0
+2023-01-31T00:06:26.577Z - info: Using extension freeze@3.0.1
+2023-01-31T00:06:26.579Z - info: Using extension fs-store@3.2.4
+2023-01-31T00:06:26.680Z - info: Using extension handlebars@3.2.1
+2023-01-31T00:06:26.682Z - info: Using extension import-export@3.2.0
+2023-01-31T00:06:26.696Z - info: Using extension jsrender@3.0.0
+2023-01-31T00:06:26.698Z - info: Using extension licensing@3.0.2
+2023-01-31T00:06:26.804Z - info: Using extension localization@3.2.1
+2023-01-31T00:06:26.807Z - info: Using extension npm@3.1.2
+2023-01-31T00:06:26.814Z - info: Using extension pdf-utils@3.7.0
+2023-01-31T00:06:26.816Z - info: Using extension reports@3.1.1
+2023-01-31T00:06:26.820Z - info: Using extension tags@3.1.1
+2023-01-31T00:06:26.825Z - info: Using extension text@3.0.0
+2023-01-31T00:06:26.826Z - info: Using extension version-control@3.1.2
+2023-01-31T00:06:26.847Z - info: Using extension assets@3.6.0
+2023-01-31T00:06:26.858Z - info: Using extension authorization@3.3.0
+2023-01-31T00:06:26.861Z - info: Using extension browser-client@3.1.1
+2023-01-31T00:06:26.863Z - info: Using extension chrome-pdf@3.3.0
+2023-01-31T00:06:26.867Z - info: Using extension docx@3.6.0
+2023-01-31T00:06:26.869Z - info: Using extension html-to-xlsx@3.3.0
+2023-01-31T00:06:26.963Z - info: html-to-xlsx detected chrome as available html engine
+2023-01-31T00:06:26.964Z - info: Using extension pptx@3.4.0
+2023-01-31T00:06:26.968Z - info: Using extension scheduling@3.0.3
+2023-01-31T00:06:27.000Z - info: Using extension scripts@3.4.0
+2023-01-31T00:06:27.002Z - info: Using extension static-pdf@3.0.1
+2023-01-31T00:06:27.005Z - info: Using extension studio@3.9.0
+2023-01-31T00:06:27.084Z - info: Using extension xlsx@3.4.0
+2023-01-31T00:06:27.115Z - info: Using extension public-templates@3.0.0
+2023-01-31T00:06:27.118Z - info: Using extension sample-template@3.2.1
+2023-01-31T00:06:27.122Z - info: Using extension studio-theme-dark@3.0.1
+2023-01-31T00:06:27.125Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2023-01-31T00:06:27.125Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2023-01-31T00:06:27.126Z - info: Using fs provider for template store.
+2023-01-31T00:06:27.132Z - info: fs store is persisting using fs for C:\Users\casim\Desktop\Laravel-React\jsreportapp\data
+2023-01-31T00:06:27.141Z - info: fs store is loading data
+2023-01-31T00:06:27.175Z - info: fs store is initialized successfully
+2023-01-31T00:06:27.304Z - info: Creating default express app.
+2023-01-31T00:06:27.333Z - info: jsreport server successfully started on http port: 5488
+2023-01-31T00:06:27.334Z - info: Verifying license key free
+2023-01-31T00:06:27.335Z - info: Using free license
+2023-01-31T00:06:27.340Z - info: Initializing worker threads
+2023-01-31T00:06:27.621Z - info: 2 worker threads initialized in 281ms
+2023-01-31T00:06:27.623Z - info: Starting temp files cleanup with 180000ms threshold
+2023-01-31T00:06:27.624Z - info: reporter initialized
+2023-01-31T00:06:33.315Z - info: Render request 1 queued for execution and waiting for available worker fromEmitProfile=true, rootId=srdb2ds36r7od2g, id=srdb2ds36r7od2g
+2023-01-31T00:06:33.457Z - info: Starting rendering request 1 rootId=srdb2ds36r7od2g, id=srdb2ds36r7od2g, fromEmitProfile=true
+2023-01-31T00:06:33.458Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=srdb2ds36r7od2g, id=srdb2ds36r7od2g, fromEmitProfile=true
+2023-01-31T00:06:34.047Z - warn: Error when processing render request 1
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) unknown encoding: dataURI 
+
+(system-helpers.js line 290:20)
+
+  288 |
+  289 |   const jsreport = require('jsreport-proxy')
+> 290 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  291 |   return assetVal
+  292 | }
+  293 |
+
+
+TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: dataURI 
+    at new NodeError (node:internal/errors:387:5)
+    at Buffer.toString (node:buffer:817:11)
+    at readAsset (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:186:25)
+    at async Object.read (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:120:19)
+    at async Object.asset (system-helpers.js:290:20)
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40
+    at async Promise.all (index 1)
+    at async executionFn (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:221:9)
+    at async run (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:24)
+    at async WorkerReporter._runInSandbox (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:180:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) unknown encoding: dataURI 
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:340:54)
+    at C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:15
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40
+    at async Promise.all (index 1)
+    at async executionFn (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:221:9)
+    at async run (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:24)
+    at async WorkerReporter._runInSandbox (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:180:14)
+    at async executeEngine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:263:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) unknown encoding: dataURI 
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:286:33)
+    at async engine.engine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=srdb2ds36r7od2g, id=srdb2ds36r7od2g, fromEmitProfile=true
+2023-01-31T00:06:34.055Z - warn: Rendering request 1 finished with error in 735 ms rootId=srdb2ds36r7od2g, id=srdb2ds36r7od2g, fromEmitProfile=true
+2023-01-31T00:06:43.260Z - info: Render request 2 queued for execution and waiting for available worker fromEmitProfile=true, rootId=o1crfa1t6df7d8m, id=o1crfa1t6df7d8m
+2023-01-31T00:06:43.405Z - info: Starting rendering request 2 rootId=o1crfa1t6df7d8m, id=o1crfa1t6df7d8m, fromEmitProfile=true
+2023-01-31T00:06:43.406Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=o1crfa1t6df7d8m, id=o1crfa1t6df7d8m, fromEmitProfile=true
+2023-01-31T00:06:45.522Z - info: Rendering request 2 finished in 2262 ms rootId=o1crfa1t6df7d8m, id=o1crfa1t6df7d8m, fromEmitProfile=true
+2023-01-31T00:07:46.782Z - info: Render request 3 queued for execution and waiting for available worker fromEmitProfile=true, rootId=hjzajbpdlsk9i9u, id=hjzajbpdlsk9i9u
+2023-01-31T00:07:46.816Z - info: Starting rendering request 3 rootId=hjzajbpdlsk9i9u, id=hjzajbpdlsk9i9u, fromEmitProfile=true
+2023-01-31T00:07:46.817Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=hjzajbpdlsk9i9u, id=hjzajbpdlsk9i9u, fromEmitProfile=true
+2023-01-31T00:07:46.859Z - warn: Error when processing render request 3
+(because) error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) unknown encoding: dataURI 
+
+(system-helpers.js line 290:20)
+
+  288 |
+  289 |   const jsreport = require('jsreport-proxy')
+> 290 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  291 |   return assetVal
+  292 | }
+  293 |
+
+
+TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: dataURI 
+    at new NodeError (node:internal/errors:387:5)
+    at Buffer.toString (node:buffer:817:11)
+    at readAsset (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:186:25)
+    at async Object.read (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:120:19)
+    at async Object.asset (system-helpers.js:290:20)
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40
+    at async Promise.all (index 1)
+    at async executionFn (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:221:9)
+    at async run (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:24)
+    at async WorkerReporter._runInSandbox (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:180:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) unknown encoding: dataURI 
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at getEnhancedHelperError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:340:54)
+    at C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:15
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:222:40
+    at async Promise.all (index 1)
+    at async executionFn (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:221:9)
+    at async run (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:24)
+    at async WorkerReporter._runInSandbox (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:180:14)
+    at async executeEngine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:263:14)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /samples/Invoice/invoice-main
+(because) "asset" helper call failed
+(because) unknown encoding: dataURI 
+    at module.exports (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:49:12)
+    at executeEngine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:286:33)
+    at async engine.engine (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:115:14)
+    at async invokeRender (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\casim\Desktop\Laravel-React\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=hjzajbpdlsk9i9u, id=hjzajbpdlsk9i9u, fromEmitProfile=true
+2023-01-31T00:07:46.867Z - warn: Rendering request 3 finished with error in 85 ms rootId=hjzajbpdlsk9i9u, id=hjzajbpdlsk9i9u, fromEmitProfile=true
+2023-01-31T00:08:43.258Z - info: Render request 4 queued for execution and waiting for available worker fromEmitProfile=true, rootId=nuybxv64a71f8qg, id=nuybxv64a71f8qg
+2023-01-31T00:08:43.280Z - info: Starting rendering request 4 rootId=nuybxv64a71f8qg, id=nuybxv64a71f8qg, fromEmitProfile=true
+2023-01-31T00:08:43.280Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=nuybxv64a71f8qg, id=nuybxv64a71f8qg, fromEmitProfile=true
+2023-01-31T00:08:43.550Z - info: Rendering request 4 finished in 292 ms rootId=nuybxv64a71f8qg, id=nuybxv64a71f8qg, fromEmitProfile=true
+2023-01-31T00:10:49.796Z - info: Render request 5 queued for execution and waiting for available worker fromEmitProfile=true, rootId=9bfgcpfbolfr9zr, id=9bfgcpfbolfr9zr
+2023-01-31T00:10:49.818Z - info: Starting rendering request 5 rootId=9bfgcpfbolfr9zr, id=9bfgcpfbolfr9zr, fromEmitProfile=true
+2023-01-31T00:10:49.819Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9bfgcpfbolfr9zr, id=9bfgcpfbolfr9zr, fromEmitProfile=true
+2023-01-31T00:10:50.066Z - info: Rendering request 5 finished in 266 ms rootId=9bfgcpfbolfr9zr, id=9bfgcpfbolfr9zr, fromEmitProfile=true
+2023-01-31T00:10:57.813Z - info: Render request 6 queued for execution and waiting for available worker fromEmitProfile=true, rootId=10zuovy0wvjmcuq, id=10zuovy0wvjmcuq
+2023-01-31T00:10:57.833Z - info: Starting rendering request 6 rootId=10zuovy0wvjmcuq, id=10zuovy0wvjmcuq, fromEmitProfile=true
+2023-01-31T00:10:57.834Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=10zuovy0wvjmcuq, id=10zuovy0wvjmcuq, fromEmitProfile=true
+2023-01-31T00:10:58.086Z - info: Rendering request 6 finished in 274 ms rootId=10zuovy0wvjmcuq, id=10zuovy0wvjmcuq, fromEmitProfile=true
+2023-01-31T00:13:54.758Z - info: Render request 7 queued for execution and waiting for available worker fromEmitProfile=true, rootId=4j5oufmu6uvzq8r, id=4j5oufmu6uvzq8r
+2023-01-31T00:13:54.791Z - info: Starting rendering request 7 rootId=4j5oufmu6uvzq8r, id=4j5oufmu6uvzq8r, fromEmitProfile=true
+2023-01-31T00:13:54.791Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4j5oufmu6uvzq8r, id=4j5oufmu6uvzq8r, fromEmitProfile=true
+2023-01-31T00:13:55.563Z - info: Rendering request 7 finished in 806 ms rootId=4j5oufmu6uvzq8r, id=4j5oufmu6uvzq8r, fromEmitProfile=true
+2023-01-31T00:18:11.211Z - info: Render request 8 queued for execution and waiting for available worker fromEmitProfile=true, rootId=o5lkckzhv0yv5ci, id=o5lkckzhv0yv5ci
+2023-01-31T00:18:11.233Z - info: Starting rendering request 8 rootId=o5lkckzhv0yv5ci, id=o5lkckzhv0yv5ci, fromEmitProfile=true
+2023-01-31T00:18:11.234Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=o5lkckzhv0yv5ci, id=o5lkckzhv0yv5ci, fromEmitProfile=true
+2023-01-31T00:18:12.076Z - info: Rendering request 8 finished in 865 ms rootId=o5lkckzhv0yv5ci, id=o5lkckzhv0yv5ci, fromEmitProfile=true
+2023-01-31T00:18:22.687Z - info: Render request 9 queued for execution and waiting for available worker fromEmitProfile=true, rootId=2ix6xgkc2wxu652, id=2ix6xgkc2wxu652
+2023-01-31T00:18:22.713Z - info: Starting rendering request 9 rootId=2ix6xgkc2wxu652, id=2ix6xgkc2wxu652, fromEmitProfile=true
+2023-01-31T00:18:22.714Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=2ix6xgkc2wxu652, id=2ix6xgkc2wxu652, fromEmitProfile=true
+2023-01-31T00:18:23.491Z - info: Rendering request 9 finished in 805 ms rootId=2ix6xgkc2wxu652, id=2ix6xgkc2wxu652, fromEmitProfile=true
+2023-01-31T00:18:32.969Z - info: Render request 10 queued for execution and waiting for available worker fromEmitProfile=true, rootId=1r6k4framm8vfwx, id=1r6k4framm8vfwx
+2023-01-31T00:18:33.120Z - info: Starting rendering request 10 rootId=1r6k4framm8vfwx, id=1r6k4framm8vfwx, fromEmitProfile=true
+2023-01-31T00:18:33.122Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1r6k4framm8vfwx, id=1r6k4framm8vfwx, fromEmitProfile=true
+2023-01-31T00:18:33.737Z - info: Rendering request 10 finished in 769 ms rootId=1r6k4framm8vfwx, id=1r6k4framm8vfwx, fromEmitProfile=true

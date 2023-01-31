@@ -1,0 +1,79 @@
+<!--
+Invoice dynamically rendered into html using handlebars and converted into pdf
+using chrome-pdf recipe. The styles are extracted into separate asset for
+better readability and later reuse.
+
+Data to this sample are mocked at the design time and should be filled on the
+incoming API request.
+!-->
+
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style>
+        {{asset "invoice-styles.css" "utf8"}}
+    </style>
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                <img src="{{asset 'logo.png' 'dataURI'}}" style="width:100%; max-width:300px;" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="heading">
+                <td>
+                    Trabajo
+                </td>
+                <td>
+                    Empleado
+                </td>
+                <td>
+                    Artículo
+                </td>
+                <td>
+                    Unidades
+                </td>
+                <td>
+                    Descripción
+                </td>
+            </tr>
+            {{#each tareas}}
+            <tr class="item">
+                <td>
+                    {{trabajo.nombre}}
+                </td>
+                <td>
+                    {{empleado.name}}
+                </td>
+                <td>
+                    {{articulo.nombre}}
+                </td>
+                <td>
+                    {{unidades}}
+                </td>
+                <td>
+                    {{descripcion}}
+                </td>
+            </tr>
+            {{/each}}
+            <tr class="total">
+                <td></td>
+                <td>
+                    {{!-- Total: ${{total unidades}} --}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
